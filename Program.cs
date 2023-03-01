@@ -11,4 +11,7 @@ List<string> wishes = new List<string>()
     "The ability to fly, but, like, really fast...not just, like, how fast I can walk, but, like, fast, you know?"
 };
 
-Console.WriteLine(wishes[0]);
+foreach (string wish in wishes)
+{
+    Console.WriteLine(wish);
+}
